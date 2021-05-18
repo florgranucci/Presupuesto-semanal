@@ -3,16 +3,16 @@
 }
 
 .button-primary {
-  background-color: #406192 !important;
-  border-color: #664539 !important;
+  background-color: #00adb5 !important;
+  border-color: #00adb5!important;
 }
 
 .button-primary:hover {
-  background-color: #b7d9e7 !important;
+  background-color: #aad8d3 !important;
   color: black !important;
 }
 body {
-  background: #000000;
+  background: #393e46;
   margin: 0;
   padding: 0;
   font-family: sans-serif;

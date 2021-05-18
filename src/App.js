@@ -1,8 +1,5 @@
 import React,{ useState, useEffect } from 'react';
-import Pregunta from './components/Pregunta';
-import Formulario from './components/Formulario';
-import Listado from './components/Listado';
-import ControlPresupuesto from './components/ControlPresupuesto';
+import { Pregunta, Formulario, Listado, Presupuesto } from './components';
 
 
 
@@ -64,7 +61,7 @@ function App() {
              <Listado 
                gastos={gastos}
              />
-             <ControlPresupuesto 
+             <Presupuesto 
                presupuesto={presupuesto}
                restante={restante}
              />
